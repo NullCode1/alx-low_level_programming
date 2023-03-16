@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * Craete int main
+ * main -  int main
  *
  * Description: print Str with puts
  *
- * Result: value 0
+ * Return: value 0
  *
 */
 

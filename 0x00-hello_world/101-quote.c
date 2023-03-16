@@ -9,7 +9,7 @@
 */
 
 int main(void)
-{	char Data[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
+{	char Data[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 
 	write(1, Data, 59);
 	return (1);

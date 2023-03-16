@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * main: Create main
+ * main -  Create main
  *
  * Description: a C program that print Str with printf func
  *
- * Result: return value 0
+ * Return: vlaue 0
 */
 
 int main(void)
