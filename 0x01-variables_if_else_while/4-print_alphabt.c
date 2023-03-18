@@ -23,4 +23,4 @@ int main(void)
 	}
 	patchar('\n');
 	return (0);
-}i
+}
