@@ -12,14 +12,15 @@
 
 int main(void)
 {
-	int x;
+	int i;
 
-	for (x = 97; x < 123; x++)
+	for (i = 97; i < 123; i++)
 	{
-		if (x != 101 &&	x != 113)
+		if (i != 101 &&	i != 113)
 		{
-			putchar(x, "\n");
+			putchar(i);
 		}
 	}
+	patchar("\n");
 	return (0);
-}
+}i
