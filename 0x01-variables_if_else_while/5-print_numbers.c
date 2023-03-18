@@ -10,11 +10,12 @@
 
 int main(void)
 {
-	int x;
+	int i;
 
-	for (x = 0; x < 10; x++)
+	for (i = 0; x < 10; x++)
 	{
-		printf("%d", x, "\n");
+		printf("%d", i);
 	}
+	putchar('\n');
 	return (0);
 }

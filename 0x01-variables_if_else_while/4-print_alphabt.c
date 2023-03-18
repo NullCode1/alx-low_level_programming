@@ -21,6 +21,6 @@ int main(void)
 			putchar(i);
 		}
 	}
-	patchar('\n');
+	putchar('\n');
 	return (0);
 }

@@ -10,15 +10,16 @@
 
 int main(void)
 {
-	int x;
+	int i;
 
-	for (x = 48; x < 58; x++)
+	for (i = 48; i < 58; i++)
 	{
-		putchar(x, "\n");
+		putchar(i);
 	}
-	for (x = 97; x < 103; x++)
+	for (i = 97; i < 103; i++)
 	{
-		putchar(x, "\n");
+		putchar(i);
 	}
+	putchar('\n');
 	return (0);
 }
