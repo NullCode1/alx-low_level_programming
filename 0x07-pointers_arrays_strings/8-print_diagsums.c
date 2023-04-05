@@ -12,7 +12,7 @@ void print_diagsums(int *a, int size)
 {
 	int x, n1 = 0, n2 = 0;
 
-	for (x = 0; x < size; z++)
+	for (x = 0; x < size; x++)
 	{
 		n1 += a[x];
 		n2 += a[size - x - 1];
