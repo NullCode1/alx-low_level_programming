@@ -9,15 +9,14 @@
  * Return: Always 0 (Success)
  */
 
-int main(int argc, char *argv[])
+int main(int argc, char const *argv[])
 {
-	int count = 0;
+	int x = 0;
 
-	if (argc > 0)
+	while (argc--)
 	{
-		while (count < argc)
-		{
-			printf("%s\n", argv[count]);
-		}
+		printf("%s\n", argv[x]);
+		x++;
 	}
+	return (0);
 }
