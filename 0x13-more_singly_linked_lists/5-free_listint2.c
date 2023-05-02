@@ -6,18 +6,17 @@
  */
 void free_listint2(listint_t **head)
 {
-	listint_t *producer;
+	listint_t *producer, *data;
 
-	if (head == NULL)
+	if (!head)
 		return;
-
-	while (*head)
+	producer = *head;
+	while (producer)
 	{
-		producer = (*head)->next;
-		free(*head);
-		*head = producr;
+		data = producer;
+		producer = producer->next;
+		free(*data);
 	}
-
 	*head = NULL;
 }
 
