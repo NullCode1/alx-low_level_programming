@@ -19,6 +19,5 @@ unsigned int binary_to_uint(const char *b)
 			return (0);
 		user = user  * 2 + (*b++ - '0');
 	}
-
 	return (user);
 }
