@@ -8,7 +8,7 @@
  * Return: Always 0
  */
 
- int main(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int position, total, change, aux;
 	int Arr[] = {25, 10, 5, 2, 1};
